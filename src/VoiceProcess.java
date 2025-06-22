@@ -12,7 +12,7 @@ public class VoiceProcess {
     public double dBRight;
 
     public void processAudio() throws Exception {
-        String filePath = "C:\\Users\\TALHA REİS\\Downloads\\test1.wav";
+        String filePath = "your path to wav file";
         try {
             audioInputStream = AudioSystem.getAudioInputStream(new File(filePath));
             format = audioInputStream.getFormat();
